@@ -26,4 +26,16 @@ public class Language {
     public Integer getRanking() {
         return ranking;
     }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public void setImage(String image) {
+        this.image = image;
+    }
+
+    public void setRanking(Integer ranking) {
+        this.ranking = ranking;
+    }
 }
